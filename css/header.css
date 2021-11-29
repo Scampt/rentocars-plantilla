@@ -1,0 +1,38 @@
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px;
+    }
+    
+    .header-nav{
+        text-align: end;
+        ;
+    }
+    
+    .header-nav .header-list {
+        list-style: none;
+    }
+    
+    .header-nav .header-list li {
+        display: inline-block;
+    }
+    
+    .header-nav .header-list li a {
+        text-decoration: none;
+        color: #000;
+        display: block;
+        padding: 0px 10px;
+    }
+    
+    .header-nav .header-list li a:hover {
+        color: #f6d601;
+        transition: all 0.5s ease;
+    }
+    
+    .header-nav .header-list .register {
+        background: #f6d601;
+        border-radius: 100px;
+        padding: 7px 35px;
+    }
