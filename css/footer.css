@@ -1,0 +1,43 @@
+/* FOOTER */
+.contact {
+    padding-top: 50px;
+    text-align: center;
+}
+.call-now {
+    text-align: center;
+    color: #0c0c0e;
+    display: inline-block;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.number {
+    color: #414141;
+    margin-top: 0;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-multipurpose {
+    color: #f6d601;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.responsive-landing {
+    color: #414141;
+    font-size: 40px;
+    margin: 0;
+}
+
+.footer-p {
+    background: #23262d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0;
+}

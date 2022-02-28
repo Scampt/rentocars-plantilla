@@ -1,3 +1,4 @@
+/* SECTION 1 BANNER*/
 .banner {
     background: url("../img/banner.jpg");
     background-repeat: no-repeat;
@@ -62,4 +63,255 @@
     background: #f6d601;;
     color: #000;
     transition: ease-in all 0.5s;
+}
+
+/* SECTION 2 CARS*/
+.car {
+    background: #fff;
+    text-align: center;
+}
+
+.car-title {
+    color: #000;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: bold;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.car-span {
+    display: block;
+    text-align: center;
+    line-height: 28px;
+    padding-bottom: 60px;
+}
+
+.car-div {
+    width: 20%;
+    display: inline-block;
+}
+
+.car-box {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    
+
+}
+.car-box .car-box-img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.car-box-title {
+    color: #000;
+    background-color: #f6d601;
+    font-size: 30px;
+    line-height: 28px;
+    height: 84px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0 0;
+
+}
+
+/* SECTION 3 - Best Car */
+.best-car {
+    margin-top: 90px;
+    background: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 100px 0;
+}
+
+.best-car-title {
+    color: #181818;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    text-transform: none;
+    line-height: 40px;
+    padding-bottom: 60px;
+}
+
+.main-form {
+    max-width: 540px;
+    width: 100%;
+    padding: 50px 50px 50px 40px;
+    background: #fff;
+    margin-left: 50%;
+}
+
+select {
+    font-size: 14px;
+    display: block;
+    border-left: none;
+}
+
+.car-make {
+    width: 100%;
+    margin-bottom: 25px;
+    background: #fff;
+    color: #4d4d4d;
+    border: 2px solid #acacac;
+    padding: 20px;
+    border-radius: 0;
+    display: block;
+    height: auto;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 35px;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 50px;
+    white-space: nowrap;
+    font-weight: 300;
+}
+
+.search {
+    margin-bottom: 25px;
+    border: 2px solid #acacac;
+    padding: 0 19px;
+    width: 100%;
+    height: 60px;
+    color: #4d4d4d;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.search-now {
+    border: none;
+    font-size: 17px;
+    transition: ease-in all 0.5s;
+    background-color: #000;
+    color: #fff;
+    padding: 13px 0;
+    margin: 0 auto;
+    max-width: 200px;
+    width: 100%;
+    display: block;
+    margin-top: 60px;
+}
+
+.search-now:hover {
+    background-color: #f6d601;
+    transition: ease-in all 0.5s;
+    color: #000;
+    border-radius: 26px;
+}
+
+/* SECTION 4 WHY CHOOSE US */
+.why-choose-us {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.choose-title {
+    margin: 0;
+    font-size: 45px;
+    color: #3e3e3e;
+    line-height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.choose-span-title {
+    color: #0c0c0e;
+    font-size: 17px;
+    display: block;
+    padding-bottom: 60px;
+}
+
+.choose-number {
+    color: #fff;
+    background: #23262d;
+    display: inline-block;
+    border-radius: 60px;
+    border: 5px solid #f6d601;
+    padding: 20px 27px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.choose-p {
+    width: 50%;
+    color: #23262d;
+    margin: auto;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+/* SECTION 5 CUSTOMER */
+.customer {
+    margin-top: 40px;
+    background: #23262d;
+    padding-bottom: 120px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.customer-title {
+    color: #fff;
+    font-size: 45px;
+    line-height: 50px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.customer-box {
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.customer-img {
+    vertical-align: middle;
+    margin: auto;
+    height: auto;
+    border-style: none;
+}
+
+
+.customer-div {
+    padding: 40px 50px;
+    width: 700px;
+    margin: auto;
+    max-width: 100%;
+    background: #fff;
+    transform: skew(-20deg);
+    position: relative;
+    bottom: 50px;
+}
+
+
+.customer-title-h4 {
+    width: 90%;
+    margin-bottom: 0;
+    font-size: 17px;
+    color: #030000;
+    line-height: 18px;
+    display: block;
+    padding-bottom: 2px;
+    padding-top: 30px;
+}
+
+.customer-span {
+    font-size: 17px;
+    margin-right: 50px;
+    line-height: 28px;
+    color: #f6d601;
+}
+
+.customer-p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #1c1b1b;
+    font-style: italic;
+    padding-bottom: 20px;
 }
